@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model currency {
+  id            String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name          String        @db.VarChar(255)
+  exchange_rate Float
+  created_at    DateTime      @default(now()) @db.Timestamp(6)
+  updated_at    DateTime      @default(now()) @db.Timestamp(6)
+  transaction   transaction[]
+}
+
+model organization {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model payment_option {
+  id          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String        @db.VarChar(255)
+  created_at  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at  DateTime      @default(now()) @db.Timestamp(6)
+  transaction transaction[]
+}
+
+model transaction {
+  id                String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  amount            Float
+  payment_option_id String         @db.Uuid
+  currency_id       String         @db.Uuid
+  user_id           String         @db.Uuid
+  created_at        DateTime       @default(now()) @db.Timestamp(6)
+  updated_at        DateTime       @default(now()) @db.Timestamp(6)
+  currency          currency       @relation(fields: [currency_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  payment_option    payment_option @relation(fields: [payment_option_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user              user           @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  verification      verification[]
+}
+
+model user {
+  id           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email        String         @unique @db.VarChar(255)
+  firstName    String?        @db.VarChar(255)
+  lastName     String?        @db.VarChar(255)
+  roq_user_id  String         @db.VarChar(255)
+  tenant_id    String         @db.VarChar(255)
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at   DateTime       @default(now()) @db.Timestamp(6)
+  organization organization[]
+  transaction  transaction[]
+}
+
+model verification {
+  id             String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  transaction_id String      @db.Uuid
+  status         String      @db.VarChar(255)
+  created_at     DateTime    @default(now()) @db.Timestamp(6)
+  updated_at     DateTime    @default(now()) @db.Timestamp(6)
+  transaction    transaction @relation(fields: [transaction_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}

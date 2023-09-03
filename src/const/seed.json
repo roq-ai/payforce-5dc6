@@ -1,0 +1,2022 @@
+[
+  {
+    "payment_option": [
+      {
+        "id": "4425d71d-4ab5-454a-a1e6-debe1f642e4c",
+        "name": "Credit Card",
+        "created_at": "2023-09-02T21:54:08.373Z",
+        "updated_at": "2023-09-02T21:46:48.042Z"
+      },
+      {
+        "id": "5723f1d8-b48a-4266-9a38-28366f53107b",
+        "name": "PayPal",
+        "created_at": "2023-09-03T19:29:19.188Z",
+        "updated_at": "2023-09-03T03:09:22.419Z"
+      },
+      {
+        "id": "ffce8e06-2361-4132-899d-96574e6fbedc",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-03T12:26:30.126Z",
+        "updated_at": "2023-09-03T10:08:44.266Z"
+      },
+      {
+        "id": "b4a81fa0-aabe-4e93-ba63-943b77a9d6e3",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T19:07:28.337Z",
+        "updated_at": "2023-09-03T18:23:41.131Z"
+      },
+      {
+        "id": "e4354fa6-dc31-4ab0-b2a6-d91ade2bb2be",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T16:14:06.293Z",
+        "updated_at": "2023-09-03T14:28:41.168Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "9f9bd0e0-9b3c-4504-a46d-dc51b91986d4",
+        "name": "US Dollar",
+        "exchange_rate": 0.755804177839309,
+        "created_at": "2023-09-03T03:17:41.939Z",
+        "updated_at": "2023-09-03T05:54:39.698Z"
+      },
+      {
+        "id": "5a6bea6f-6661-47a6-8ed1-437ffee86483",
+        "name": "Euro",
+        "exchange_rate": 0.6828914314974099,
+        "created_at": "2023-09-03T04:08:08.012Z",
+        "updated_at": "2023-09-03T07:01:45.228Z"
+      },
+      {
+        "id": "cd9118d6-24d6-4adb-a20c-414556ef6ac3",
+        "name": "Japanese Yen",
+        "exchange_rate": 0.5962286842986941,
+        "created_at": "2023-09-03T00:04:05.538Z",
+        "updated_at": "2023-09-03T03:54:08.966Z"
+      },
+      {
+        "id": "fd8a3b37-3d57-4aad-8808-b71f33e2621e",
+        "name": "British Pound",
+        "exchange_rate": 0.12339354516007006,
+        "created_at": "2023-09-03T10:24:04.062Z",
+        "updated_at": "2023-09-03T02:31:46.499Z"
+      },
+      {
+        "id": "70fe0c1c-2897-4011-a984-c4b05f93e9eb",
+        "name": "Canadian Dollar",
+        "exchange_rate": 0.8052243683487177,
+        "created_at": "2023-09-03T16:05:19.787Z",
+        "updated_at": "2023-09-03T05:58:05.009Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "12f3616d-dee8-4c6d-9133-3431c450baee",
+        "amount": 0.8376400964334607,
+        "created_at": "2023-09-03T15:16:24.661Z",
+        "updated_at": "2023-09-03T09:16:57.456Z",
+        "currency_id": "9f9bd0e0-9b3c-4504-a46d-dc51b91986d4",
+        "payment_option_id": "e4354fa6-dc31-4ab0-b2a6-d91ade2bb2be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e31112b-f245-4795-b706-c99bf1457679",
+        "amount": 0.6224221275188029,
+        "created_at": "2023-09-03T03:27:55.632Z",
+        "updated_at": "2023-09-03T01:32:13.814Z",
+        "currency_id": "5a6bea6f-6661-47a6-8ed1-437ffee86483",
+        "payment_option_id": "b4a81fa0-aabe-4e93-ba63-943b77a9d6e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd759fe6-dd7c-4992-bb68-04c1a0f754c6",
+        "amount": 0.7447406698483974,
+        "created_at": "2023-09-03T03:48:26.964Z",
+        "updated_at": "2023-09-03T14:24:32.305Z",
+        "currency_id": "70fe0c1c-2897-4011-a984-c4b05f93e9eb",
+        "payment_option_id": "b4a81fa0-aabe-4e93-ba63-943b77a9d6e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cb87ebf-d061-451b-bce7-66a194c7f68d",
+        "amount": 0.25415905890986323,
+        "created_at": "2023-09-03T01:03:57.303Z",
+        "updated_at": "2023-09-03T17:43:10.546Z",
+        "currency_id": "70fe0c1c-2897-4011-a984-c4b05f93e9eb",
+        "payment_option_id": "4425d71d-4ab5-454a-a1e6-debe1f642e4c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43056762-6fde-4bb2-9cac-e8672b1c47e2",
+        "amount": 0.5433275199029595,
+        "created_at": "2023-09-02T22:55:33.428Z",
+        "updated_at": "2023-09-03T18:51:53.868Z",
+        "currency_id": "9f9bd0e0-9b3c-4504-a46d-dc51b91986d4",
+        "payment_option_id": "b4a81fa0-aabe-4e93-ba63-943b77a9d6e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "ae85663e-1746-4ffb-80a9-9aaab56139c2",
+        "status": "Pending",
+        "created_at": "2023-09-03T16:05:44.805Z",
+        "updated_at": "2023-09-03T05:53:51.640Z",
+        "transaction_id": "8e31112b-f245-4795-b706-c99bf1457679"
+      },
+      {
+        "id": "5a55750a-5849-4b4c-9aab-6752253f005d",
+        "status": "Approved",
+        "created_at": "2023-09-03T18:43:05.194Z",
+        "updated_at": "2023-09-03T05:30:58.094Z",
+        "transaction_id": "43056762-6fde-4bb2-9cac-e8672b1c47e2"
+      },
+      {
+        "id": "5046d17f-788a-43d7-ae7c-132628183f59",
+        "status": "Rejected",
+        "created_at": "2023-09-02T22:54:54.630Z",
+        "updated_at": "2023-09-03T16:51:23.861Z",
+        "transaction_id": "12f3616d-dee8-4c6d-9133-3431c450baee"
+      },
+      {
+        "id": "b8eb435f-9ffb-4842-8305-1e0f49b7864b",
+        "status": "Under Review",
+        "created_at": "2023-09-03T06:05:23.675Z",
+        "updated_at": "2023-09-03T17:41:18.334Z",
+        "transaction_id": "43056762-6fde-4bb2-9cac-e8672b1c47e2"
+      },
+      {
+        "id": "8dbade6f-a08c-434f-a70d-825ea4aecaa1",
+        "status": "Verified",
+        "created_at": "2023-09-03T08:40:37.689Z",
+        "updated_at": "2023-09-03T11:16:23.521Z",
+        "transaction_id": "43056762-6fde-4bb2-9cac-e8672b1c47e2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b81df5ae-14a4-4086-b0ce-b2254889c2db",
+        "email": "Elvie_Okuneva@yahoo.com",
+        "firstName": "Francisco",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73798625",
+        "tenantId": null
+      },
+      {
+        "reference": "6c2d6983-8dae-44c7-bb2a-1580f7042a15",
+        "email": "Randall81@yahoo.com",
+        "firstName": "Aida",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57803847",
+        "tenantId": null
+      },
+      {
+        "reference": "b846ee29-798e-414a-947d-1780b4ba6493",
+        "email": "Nat8@gmail.com",
+        "firstName": "Mathilde",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21497755",
+        "tenantId": null
+      },
+      {
+        "reference": "d731182d-a57b-4b90-aa49-f2fd9e77f050",
+        "email": "Brannon.Wiza16@hotmail.com",
+        "firstName": "Chaim",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54931278",
+        "tenantId": null
+      },
+      {
+        "reference": "fbb46b5b-9b70-4d93-9969-52e87ffa212f",
+        "email": "Deon38@gmail.com",
+        "firstName": "Elroy",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/764.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "9329bfa4-a1d8-4d78-b728-95ceea576304",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T16:05:14.317Z",
+        "updated_at": "2023-09-02T21:00:32.293Z"
+      },
+      {
+        "id": "4cc2d315-736a-46a9-a6d3-0923bc7e31ce",
+        "name": "PayPal",
+        "created_at": "2023-09-03T01:10:28.218Z",
+        "updated_at": "2023-09-03T10:23:43.277Z"
+      },
+      {
+        "id": "3cef7426-9506-4f3a-a58e-665873e54bd5",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T04:53:46.694Z",
+        "updated_at": "2023-09-03T15:19:33.248Z"
+      },
+      {
+        "id": "ce16ef25-c7e8-4859-b4bd-c2187e4f625e",
+        "name": "Google Pay",
+        "created_at": "2023-09-02T20:39:06.969Z",
+        "updated_at": "2023-09-03T06:51:55.355Z"
+      },
+      {
+        "id": "c18a8436-9194-4f82-8418-ef33677a69f1",
+        "name": "Venmo",
+        "created_at": "2023-09-02T21:27:40.319Z",
+        "updated_at": "2023-09-03T05:19:06.362Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "bd6991a2-ec01-4c01-ac80-2baa5bc25ac9",
+        "name": "US Dollar",
+        "exchange_rate": 0.37761380849406123,
+        "created_at": "2023-09-03T16:53:21.711Z",
+        "updated_at": "2023-09-03T07:40:25.401Z"
+      },
+      {
+        "id": "b363c852-bdd1-4d16-ac25-0b1aa629f586",
+        "name": "Euro",
+        "exchange_rate": 0.016850371845066547,
+        "created_at": "2023-09-03T10:50:03.758Z",
+        "updated_at": "2023-09-02T23:30:00.497Z"
+      },
+      {
+        "id": "e9969885-4016-48d6-b93d-099bc7aeed21",
+        "name": "Japanese Yen",
+        "exchange_rate": 0.8072733317967504,
+        "created_at": "2023-09-03T14:19:41.540Z",
+        "updated_at": "2023-09-03T09:01:28.235Z"
+      },
+      {
+        "id": "5ca3ed60-7a4d-4706-8156-f2f402572d24",
+        "name": "British Pound",
+        "exchange_rate": 0.8923010986763984,
+        "created_at": "2023-09-02T23:06:08.494Z",
+        "updated_at": "2023-09-03T03:11:20.511Z"
+      },
+      {
+        "id": "54cbffea-fc18-4684-aad0-c80100f13fff",
+        "name": "Canadian Dollar",
+        "exchange_rate": 0.04472298780456185,
+        "created_at": "2023-09-03T17:34:50.265Z",
+        "updated_at": "2023-09-02T22:22:38.790Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "a664ab6e-2424-4955-87e2-1dc0538f940a",
+        "amount": 0.07505479571409523,
+        "created_at": "2023-09-03T16:52:53.411Z",
+        "updated_at": "2023-09-03T17:37:18.378Z",
+        "currency_id": "e9969885-4016-48d6-b93d-099bc7aeed21",
+        "payment_option_id": "c18a8436-9194-4f82-8418-ef33677a69f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46f2e329-400b-4493-b86f-67c8e420c9e2",
+        "amount": 0.7660574219189584,
+        "created_at": "2023-09-03T15:00:32.811Z",
+        "updated_at": "2023-09-03T10:27:21.408Z",
+        "currency_id": "e9969885-4016-48d6-b93d-099bc7aeed21",
+        "payment_option_id": "9329bfa4-a1d8-4d78-b728-95ceea576304",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82aa06cf-93cf-4f05-aa4e-cc1d403dc451",
+        "amount": 0.3265581331215799,
+        "created_at": "2023-09-03T04:54:27.708Z",
+        "updated_at": "2023-09-03T14:16:50.909Z",
+        "currency_id": "e9969885-4016-48d6-b93d-099bc7aeed21",
+        "payment_option_id": "9329bfa4-a1d8-4d78-b728-95ceea576304",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7dc4667-1990-43a2-852e-9ddf3bb23101",
+        "amount": 0.7511332537978888,
+        "created_at": "2023-09-03T09:07:26.580Z",
+        "updated_at": "2023-09-03T14:55:28.097Z",
+        "currency_id": "5ca3ed60-7a4d-4706-8156-f2f402572d24",
+        "payment_option_id": "c18a8436-9194-4f82-8418-ef33677a69f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34da48dd-8cf7-478c-a02c-1f983d164a08",
+        "amount": 0.5637133731506765,
+        "created_at": "2023-09-03T08:53:11.968Z",
+        "updated_at": "2023-09-03T16:28:39.733Z",
+        "currency_id": "b363c852-bdd1-4d16-ac25-0b1aa629f586",
+        "payment_option_id": "4cc2d315-736a-46a9-a6d3-0923bc7e31ce",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "4f1adec0-3584-4874-baef-470ceda6eefd",
+        "status": "Verified",
+        "created_at": "2023-09-03T18:46:37.244Z",
+        "updated_at": "2023-09-03T10:08:56.381Z",
+        "transaction_id": "f7dc4667-1990-43a2-852e-9ddf3bb23101"
+      },
+      {
+        "id": "9e7427c9-b6a4-4c3f-be45-f77fe53e7aae",
+        "status": "Pending",
+        "created_at": "2023-09-03T07:30:15.219Z",
+        "updated_at": "2023-09-03T05:27:37.079Z",
+        "transaction_id": "46f2e329-400b-4493-b86f-67c8e420c9e2"
+      },
+      {
+        "id": "96a84c9e-7927-4a1e-86c4-d338ea4bc658",
+        "status": "Rejected",
+        "created_at": "2023-09-03T03:16:11.403Z",
+        "updated_at": "2023-09-03T01:05:50.835Z",
+        "transaction_id": "82aa06cf-93cf-4f05-aa4e-cc1d403dc451"
+      },
+      {
+        "id": "d0dafeb4-de9b-45e3-8952-680d4e6bfa47",
+        "status": "Approved",
+        "created_at": "2023-09-03T15:09:31.472Z",
+        "updated_at": "2023-09-03T10:32:06.900Z",
+        "transaction_id": "46f2e329-400b-4493-b86f-67c8e420c9e2"
+      },
+      {
+        "id": "0781defb-c898-4194-a837-cdb8911f6288",
+        "status": "Cancelled",
+        "created_at": "2023-09-02T23:30:22.516Z",
+        "updated_at": "2023-09-03T07:15:44.452Z",
+        "transaction_id": "a664ab6e-2424-4955-87e2-1dc0538f940a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cdd73eb5-d698-4286-9222-ecce7335c118",
+        "email": "Carlee_Batz@hotmail.com",
+        "firstName": "Leilani",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83538116",
+        "tenantId": null
+      },
+      {
+        "reference": "d530a8a9-89bd-4b40-adcb-d84b9180b63c",
+        "email": "Delaney.Hermann@hotmail.com",
+        "firstName": "Laisha",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17139798",
+        "tenantId": null
+      },
+      {
+        "reference": "87b95f5b-09d5-4778-890a-b86efb33b53d",
+        "email": "Nikita_Dare73@yahoo.com",
+        "firstName": "Eliza",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16593628",
+        "tenantId": null
+      },
+      {
+        "reference": "52408917-981b-422b-9798-a4648a985106",
+        "email": "Emmie30@hotmail.com",
+        "firstName": "Jeanne",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25622124",
+        "tenantId": null
+      },
+      {
+        "reference": "902c7ad9-8471-4d63-a29a-34c0a7f71743",
+        "email": "Catalina.Hoppe@hotmail.com",
+        "firstName": "Waylon",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/39.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "d1a60254-a085-4506-8bea-be02b5640104",
+        "name": "Credit Card",
+        "created_at": "2023-09-02T21:12:05.047Z",
+        "updated_at": "2023-09-03T09:21:57.956Z"
+      },
+      {
+        "id": "b57b34aa-eb37-42ff-9d7d-2b8b5ae42f12",
+        "name": "PayPal",
+        "created_at": "2023-09-03T19:12:05.366Z",
+        "updated_at": "2023-09-03T17:59:23.448Z"
+      },
+      {
+        "id": "770042e1-e9c3-4d39-98ad-08c762e63e63",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-03T07:41:24.754Z",
+        "updated_at": "2023-09-02T22:52:55.045Z"
+      },
+      {
+        "id": "f584e0bb-cc92-4e21-88b8-b826c972c8fe",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T04:13:18.355Z",
+        "updated_at": "2023-09-03T17:31:11.469Z"
+      },
+      {
+        "id": "c0a7ba67-2953-4a3d-b72a-70c59775a48d",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T13:42:49.565Z",
+        "updated_at": "2023-09-02T20:17:10.863Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "5bd9899b-b120-4cdd-a13c-6f23620cd033",
+        "name": "USD",
+        "exchange_rate": 0.15170477656647563,
+        "created_at": "2023-09-03T14:23:32.489Z",
+        "updated_at": "2023-09-02T21:04:50.482Z"
+      },
+      {
+        "id": "69ac0f79-0a62-4516-a777-931ddf11176d",
+        "name": "EUR",
+        "exchange_rate": 0.26667928835377097,
+        "created_at": "2023-09-03T13:32:01.504Z",
+        "updated_at": "2023-09-03T16:01:00.889Z"
+      },
+      {
+        "id": "785abaa6-c8f4-445e-a5ac-981c1d6d088c",
+        "name": "GBP",
+        "exchange_rate": 0.9420758367050439,
+        "created_at": "2023-09-03T13:28:49.138Z",
+        "updated_at": "2023-09-03T19:05:44.184Z"
+      },
+      {
+        "id": "bdd4a6e9-f336-418e-baa1-3a2893a7403f",
+        "name": "JPY",
+        "exchange_rate": 0.545749613782391,
+        "created_at": "2023-09-03T05:51:35.862Z",
+        "updated_at": "2023-09-03T00:12:03.826Z"
+      },
+      {
+        "id": "9537afac-8c12-4aa9-99ae-ce0021c72b7d",
+        "name": "CAD",
+        "exchange_rate": 0.02277594874612987,
+        "created_at": "2023-09-03T09:25:29.672Z",
+        "updated_at": "2023-09-03T16:49:48.886Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "5f685749-5bb5-4742-826c-88c0cd17cfb9",
+        "amount": 0.5756460737902671,
+        "created_at": "2023-09-03T18:57:56.044Z",
+        "updated_at": "2023-09-03T09:33:17.576Z",
+        "currency_id": "bdd4a6e9-f336-418e-baa1-3a2893a7403f",
+        "payment_option_id": "f584e0bb-cc92-4e21-88b8-b826c972c8fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13c140e9-9eb0-4149-81fd-0d0ed16c15c3",
+        "amount": 0.6435853622388095,
+        "created_at": "2023-09-03T14:50:42.558Z",
+        "updated_at": "2023-09-03T11:06:49.570Z",
+        "currency_id": "9537afac-8c12-4aa9-99ae-ce0021c72b7d",
+        "payment_option_id": "b57b34aa-eb37-42ff-9d7d-2b8b5ae42f12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1643ff5-2f91-45da-ba35-489a18881ec3",
+        "amount": 0.20951728825457394,
+        "created_at": "2023-09-03T18:12:10.626Z",
+        "updated_at": "2023-09-03T08:18:53.518Z",
+        "currency_id": "bdd4a6e9-f336-418e-baa1-3a2893a7403f",
+        "payment_option_id": "770042e1-e9c3-4d39-98ad-08c762e63e63",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18a53466-d0ad-4576-b62b-f3026e38c128",
+        "amount": 0.8493767066393048,
+        "created_at": "2023-09-02T19:40:43.878Z",
+        "updated_at": "2023-09-03T09:33:39.094Z",
+        "currency_id": "5bd9899b-b120-4cdd-a13c-6f23620cd033",
+        "payment_option_id": "770042e1-e9c3-4d39-98ad-08c762e63e63",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95603935-8374-4a57-811b-d1adee4e4ab1",
+        "amount": 0.9163625354412943,
+        "created_at": "2023-09-03T09:16:00.269Z",
+        "updated_at": "2023-09-03T11:25:42.122Z",
+        "currency_id": "bdd4a6e9-f336-418e-baa1-3a2893a7403f",
+        "payment_option_id": "770042e1-e9c3-4d39-98ad-08c762e63e63",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "a8081df8-0680-4a0b-85d1-3a31539dcde5",
+        "status": "Pending",
+        "created_at": "2023-09-03T09:10:12.404Z",
+        "updated_at": "2023-09-03T17:37:18.087Z",
+        "transaction_id": "13c140e9-9eb0-4149-81fd-0d0ed16c15c3"
+      },
+      {
+        "id": "068bbfa5-8b85-4ea0-9fb8-94b470ae3b47",
+        "status": "Approved",
+        "created_at": "2023-09-03T01:34:39.229Z",
+        "updated_at": "2023-09-03T00:26:36.969Z",
+        "transaction_id": "95603935-8374-4a57-811b-d1adee4e4ab1"
+      },
+      {
+        "id": "c8c587d1-448f-49c8-8b40-ed41dae9b76c",
+        "status": "Rejected",
+        "created_at": "2023-09-03T13:25:00.534Z",
+        "updated_at": "2023-09-03T12:50:23.712Z",
+        "transaction_id": "a1643ff5-2f91-45da-ba35-489a18881ec3"
+      },
+      {
+        "id": "22bcdb8f-c114-477d-8f84-0b987cd771a1",
+        "status": "Verified",
+        "created_at": "2023-09-03T16:49:20.713Z",
+        "updated_at": "2023-09-03T05:08:14.080Z",
+        "transaction_id": "95603935-8374-4a57-811b-d1adee4e4ab1"
+      },
+      {
+        "id": "241781bd-5141-4434-80a9-1b9fc0115cc6",
+        "status": "Incomplete",
+        "created_at": "2023-09-02T23:23:04.575Z",
+        "updated_at": "2023-09-03T01:17:00.952Z",
+        "transaction_id": "95603935-8374-4a57-811b-d1adee4e4ab1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "996040de-7753-4fbb-ac2f-5591c699b5ec",
+        "email": "Kellie_Moore90@yahoo.com",
+        "firstName": "Lee",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7882371-7ca4-426a-8391-61550db38e3f",
+        "email": "Anderson66@yahoo.com",
+        "firstName": "Roberto",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82835424",
+        "tenantId": null
+      },
+      {
+        "reference": "5ea035e8-bbb0-4c49-9d67-686f9d925a74",
+        "email": "Lester49@yahoo.com",
+        "firstName": "Hobart",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39197548",
+        "tenantId": null
+      },
+      {
+        "reference": "eaad5ea8-012f-4679-8c5c-3f6b0534d95a",
+        "email": "Alfonzo.Auer56@yahoo.com",
+        "firstName": "Rocio",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b92efa5f-69b4-4876-8c1b-6ebe9caca90a",
+        "email": "Dandre27@hotmail.com",
+        "firstName": "Alvah",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "ee8a0831-d7bb-433f-855e-008917875731",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T00:35:09.721Z",
+        "updated_at": "2023-09-02T23:20:58.089Z"
+      },
+      {
+        "id": "e690b813-6a3c-49e3-a84d-892752c29ee4",
+        "name": "PayPal",
+        "created_at": "2023-09-03T10:59:56.302Z",
+        "updated_at": "2023-09-03T18:03:34.765Z"
+      },
+      {
+        "id": "a7238d4a-ec24-4c89-9938-701c9ed135a8",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-02T22:36:25.010Z",
+        "updated_at": "2023-09-02T20:11:17.891Z"
+      },
+      {
+        "id": "45f69748-ffee-4976-98b3-caf8a81a9ff8",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T03:28:09.431Z",
+        "updated_at": "2023-09-03T05:28:39.809Z"
+      },
+      {
+        "id": "3571c99f-c481-44dc-a5f3-da79c88c8bad",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T01:45:27.409Z",
+        "updated_at": "2023-09-03T07:57:08.662Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "29ef6920-125b-47de-9d00-d6fd32afbefe",
+        "name": "USD",
+        "exchange_rate": 0.7654496964532882,
+        "created_at": "2023-09-03T13:59:59.015Z",
+        "updated_at": "2023-09-03T08:46:41.087Z"
+      },
+      {
+        "id": "0e268a77-378c-4993-8da4-12413dbea52c",
+        "name": "EUR",
+        "exchange_rate": 0.901413400657475,
+        "created_at": "2023-09-03T07:16:32.363Z",
+        "updated_at": "2023-09-03T12:16:57.045Z"
+      },
+      {
+        "id": "9eca5e70-3e5d-4cf5-b546-57e03fb2933f",
+        "name": "GBP",
+        "exchange_rate": 0.9329280350357294,
+        "created_at": "2023-09-03T12:58:08.397Z",
+        "updated_at": "2023-09-03T03:52:04.334Z"
+      },
+      {
+        "id": "4f4001bd-ec6e-4888-9238-1196070f0c84",
+        "name": "JPY",
+        "exchange_rate": 0.5471901309210807,
+        "created_at": "2023-09-03T14:03:02.305Z",
+        "updated_at": "2023-09-03T16:25:56.633Z"
+      },
+      {
+        "id": "6d60f2c6-ba17-48ac-9a83-7d32c3630881",
+        "name": "AUD",
+        "exchange_rate": 0.8561728517524898,
+        "created_at": "2023-09-03T07:54:33.176Z",
+        "updated_at": "2023-09-03T16:34:13.286Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "3a738a38-a5b0-4db2-9eee-0f084fa1376e",
+        "amount": 0.23030222463421524,
+        "created_at": "2023-09-03T18:20:58.271Z",
+        "updated_at": "2023-09-03T09:32:13.127Z",
+        "currency_id": "6d60f2c6-ba17-48ac-9a83-7d32c3630881",
+        "payment_option_id": "ee8a0831-d7bb-433f-855e-008917875731",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a1415f9-bbd3-49f4-811f-7cbc95bda598",
+        "amount": 0.9477400726173073,
+        "created_at": "2023-09-03T00:41:20.028Z",
+        "updated_at": "2023-09-03T15:14:30.134Z",
+        "currency_id": "6d60f2c6-ba17-48ac-9a83-7d32c3630881",
+        "payment_option_id": "ee8a0831-d7bb-433f-855e-008917875731",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8435fa55-4abf-445e-99b3-1a3a6330fd32",
+        "amount": 0.19272773433476686,
+        "created_at": "2023-09-02T21:10:03.370Z",
+        "updated_at": "2023-09-03T16:38:41.717Z",
+        "currency_id": "4f4001bd-ec6e-4888-9238-1196070f0c84",
+        "payment_option_id": "a7238d4a-ec24-4c89-9938-701c9ed135a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0c341d5-314e-468a-baf2-a22851aa09bc",
+        "amount": 0.6093150130473077,
+        "created_at": "2023-09-03T06:59:49.918Z",
+        "updated_at": "2023-09-03T04:26:28.809Z",
+        "currency_id": "4f4001bd-ec6e-4888-9238-1196070f0c84",
+        "payment_option_id": "45f69748-ffee-4976-98b3-caf8a81a9ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbf70ac8-5da6-437e-9e88-9b3a1668e7ad",
+        "amount": 0.04428876261226833,
+        "created_at": "2023-09-03T08:50:55.111Z",
+        "updated_at": "2023-09-03T05:39:35.311Z",
+        "currency_id": "9eca5e70-3e5d-4cf5-b546-57e03fb2933f",
+        "payment_option_id": "a7238d4a-ec24-4c89-9938-701c9ed135a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "949627bd-5438-49e1-b55b-a9ec34461a41",
+        "status": "Verified",
+        "created_at": "2023-09-03T09:51:47.877Z",
+        "updated_at": "2023-09-03T12:30:48.991Z",
+        "transaction_id": "2a1415f9-bbd3-49f4-811f-7cbc95bda598"
+      },
+      {
+        "id": "ad0396a1-27f8-4689-a4c0-572858e8912a",
+        "status": "Pending",
+        "created_at": "2023-09-03T19:37:47.146Z",
+        "updated_at": "2023-09-03T11:30:12.241Z",
+        "transaction_id": "3a738a38-a5b0-4db2-9eee-0f084fa1376e"
+      },
+      {
+        "id": "b6817d8e-9ec2-473a-8dd5-71d6108ea8c2",
+        "status": "Rejected",
+        "created_at": "2023-09-02T22:43:39.303Z",
+        "updated_at": "2023-09-03T06:25:41.231Z",
+        "transaction_id": "f0c341d5-314e-468a-baf2-a22851aa09bc"
+      },
+      {
+        "id": "3ea95224-65cc-4df4-98cb-3945bc2f0206",
+        "status": "Approved",
+        "created_at": "2023-09-03T14:26:08.143Z",
+        "updated_at": "2023-09-03T14:37:52.909Z",
+        "transaction_id": "3a738a38-a5b0-4db2-9eee-0f084fa1376e"
+      },
+      {
+        "id": "a08fe62c-42c4-4024-8553-ffcff09e3af5",
+        "status": "Incomplete",
+        "created_at": "2023-09-03T03:39:23.289Z",
+        "updated_at": "2023-09-03T11:37:43.147Z",
+        "transaction_id": "f0c341d5-314e-468a-baf2-a22851aa09bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "01661c9b-1d91-4e96-af00-9f780e363dbd",
+        "email": "Ursula_Bauch60@hotmail.com",
+        "firstName": "Sydnie",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7998155",
+        "tenantId": null
+      },
+      {
+        "reference": "6a4d0a2d-32c9-4dfe-a018-9f8b171a5dfc",
+        "email": "Mariana_Lubowitz-Hintz@hotmail.com",
+        "firstName": "Jasmin",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/32.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e127f94d-cf7c-4d02-b6dd-e49ed15c19d8",
+        "email": "Conor_Steuber@hotmail.com",
+        "firstName": "Berta",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07c46fe6-55f5-4bad-ad6b-ba43e26b6a30",
+        "email": "Dayana.Connelly85@gmail.com",
+        "firstName": "Flossie",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/649.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8cead13-6b10-4eaa-b629-0df69122b0a1",
+        "email": "Janessa36@gmail.com",
+        "firstName": "Lambert",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/886.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "559a6d82-82e7-43a0-8b32-17a05510100f",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T02:53:20.076Z",
+        "updated_at": "2023-09-03T13:50:07.027Z"
+      },
+      {
+        "id": "f05bc886-7cd2-438c-83d1-0fa1cf721a59",
+        "name": "PayPal",
+        "created_at": "2023-09-02T19:56:26.127Z",
+        "updated_at": "2023-09-03T12:50:28.593Z"
+      },
+      {
+        "id": "e1afc647-4b57-412f-a4b5-2e9f78bb723b",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-03T17:55:18.552Z",
+        "updated_at": "2023-09-03T03:24:07.163Z"
+      },
+      {
+        "id": "5b116acd-fd9f-4f0e-9dc8-93d8563f74bd",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T13:41:42.331Z",
+        "updated_at": "2023-09-03T15:02:59.220Z"
+      },
+      {
+        "id": "f21d12e2-cbd1-430e-b67c-eb4414ede5db",
+        "name": "Apple Pay",
+        "created_at": "2023-09-02T23:54:46.304Z",
+        "updated_at": "2023-09-03T02:59:07.526Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "d74a1325-3f46-40fd-b3c4-b3291baecd13",
+        "name": "US Dollar",
+        "exchange_rate": 0.07170971645973623,
+        "created_at": "2023-09-02T20:41:45.442Z",
+        "updated_at": "2023-09-02T22:09:40.880Z"
+      },
+      {
+        "id": "90239f62-7f64-4952-ac48-6bebad60d8a0",
+        "name": "Euro",
+        "exchange_rate": 0.24131115223281085,
+        "created_at": "2023-09-02T20:56:16.694Z",
+        "updated_at": "2023-09-03T15:44:43.581Z"
+      },
+      {
+        "id": "580c63fd-238f-4bb4-8ddb-8be2c9ea4edd",
+        "name": "Japanese Yen",
+        "exchange_rate": 0.2989759696647525,
+        "created_at": "2023-09-03T16:31:52.099Z",
+        "updated_at": "2023-09-03T02:45:42.601Z"
+      },
+      {
+        "id": "be421389-3184-464d-8375-8e96123dd0f9",
+        "name": "British Pound",
+        "exchange_rate": 0.9429934022482485,
+        "created_at": "2023-09-03T12:11:58.714Z",
+        "updated_at": "2023-09-03T14:17:46.318Z"
+      },
+      {
+        "id": "6e3ec15f-95c7-467a-a218-80ed24c7e1e7",
+        "name": "Canadian Dollar",
+        "exchange_rate": 0.14727164548821747,
+        "created_at": "2023-09-03T11:00:27.234Z",
+        "updated_at": "2023-09-02T19:59:42.759Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "f4cdfa85-ef68-48a8-8792-9aeedc3245ff",
+        "amount": 0.8881208952516317,
+        "created_at": "2023-09-03T12:02:16.137Z",
+        "updated_at": "2023-09-03T12:29:24.523Z",
+        "currency_id": "6e3ec15f-95c7-467a-a218-80ed24c7e1e7",
+        "payment_option_id": "559a6d82-82e7-43a0-8b32-17a05510100f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49e2f6df-fc99-49b6-9d7e-a89da0a274d1",
+        "amount": 0.33952925237827003,
+        "created_at": "2023-09-03T04:28:34.886Z",
+        "updated_at": "2023-09-03T19:04:04.032Z",
+        "currency_id": "be421389-3184-464d-8375-8e96123dd0f9",
+        "payment_option_id": "f21d12e2-cbd1-430e-b67c-eb4414ede5db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b816d3ae-26bd-4733-8ae5-365c31d6a5f6",
+        "amount": 0.07398572680540383,
+        "created_at": "2023-09-03T06:29:59.387Z",
+        "updated_at": "2023-09-03T09:19:32.843Z",
+        "currency_id": "90239f62-7f64-4952-ac48-6bebad60d8a0",
+        "payment_option_id": "e1afc647-4b57-412f-a4b5-2e9f78bb723b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15c3a072-4ef6-483f-8372-2f8fcb1e082b",
+        "amount": 0.31788918399252,
+        "created_at": "2023-09-03T06:23:10.901Z",
+        "updated_at": "2023-09-03T09:28:45.604Z",
+        "currency_id": "be421389-3184-464d-8375-8e96123dd0f9",
+        "payment_option_id": "559a6d82-82e7-43a0-8b32-17a05510100f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11e83024-b4a7-4569-aff5-40aa2cf6e442",
+        "amount": 0.6461236814502627,
+        "created_at": "2023-09-03T16:30:43.291Z",
+        "updated_at": "2023-09-03T10:06:14.462Z",
+        "currency_id": "d74a1325-3f46-40fd-b3c4-b3291baecd13",
+        "payment_option_id": "e1afc647-4b57-412f-a4b5-2e9f78bb723b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "2cf88172-1980-40de-98dd-385d5e4f0695",
+        "status": "Verified",
+        "created_at": "2023-09-03T15:50:20.854Z",
+        "updated_at": "2023-09-03T03:30:49.413Z",
+        "transaction_id": "f4cdfa85-ef68-48a8-8792-9aeedc3245ff"
+      },
+      {
+        "id": "13be62f8-70b8-4810-933b-fd588f39a0fb",
+        "status": "Pending",
+        "created_at": "2023-09-02T23:47:23.543Z",
+        "updated_at": "2023-09-03T18:53:39.793Z",
+        "transaction_id": "f4cdfa85-ef68-48a8-8792-9aeedc3245ff"
+      },
+      {
+        "id": "4fa11ded-103d-45c4-82a0-e4150e06e07c",
+        "status": "Rejected",
+        "created_at": "2023-09-03T10:04:30.761Z",
+        "updated_at": "2023-09-03T05:04:14.476Z",
+        "transaction_id": "b816d3ae-26bd-4733-8ae5-365c31d6a5f6"
+      },
+      {
+        "id": "3e18954d-dd95-477e-9a67-408af49bb978",
+        "status": "Approved",
+        "created_at": "2023-09-02T20:48:07.957Z",
+        "updated_at": "2023-09-03T01:10:26.681Z",
+        "transaction_id": "f4cdfa85-ef68-48a8-8792-9aeedc3245ff"
+      },
+      {
+        "id": "548607b4-ff9c-40fc-b8a4-3c8085298abb",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T16:26:34.117Z",
+        "updated_at": "2023-09-02T22:51:08.469Z",
+        "transaction_id": "f4cdfa85-ef68-48a8-8792-9aeedc3245ff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "878bdac1-1829-4763-8a79-71e830e43dd1",
+        "email": "Greg79@gmail.com",
+        "firstName": "Aylin",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/430.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ec5dfd0-4a1b-48b1-9f66-0dc21a766f90",
+        "email": "Katelyn32@hotmail.com",
+        "firstName": "Judson",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63053872",
+        "tenantId": null
+      },
+      {
+        "reference": "291748be-fa3c-43a3-9ec9-4e7d6613369e",
+        "email": "Stan_Kunze@hotmail.com",
+        "firstName": "Daren",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1414341",
+        "tenantId": null
+      },
+      {
+        "reference": "96926502-5dae-4d2b-97c9-15d6a20ce590",
+        "email": "Gianni_Macejkovic19@yahoo.com",
+        "firstName": "Blake",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "463a784a-ec69-434f-bb28-12a9b25daaa0",
+        "email": "Lina_Kiehn@yahoo.com",
+        "firstName": "Bernard",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/819.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "152c03f1-c49c-45af-b666-67613aad62f2",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T03:41:57.869Z",
+        "updated_at": "2023-09-03T11:47:04.721Z"
+      },
+      {
+        "id": "8504a6cc-a257-40ae-8b1e-472ebfe0a872",
+        "name": "PayPal",
+        "created_at": "2023-09-03T03:37:06.745Z",
+        "updated_at": "2023-09-03T17:12:54.670Z"
+      },
+      {
+        "id": "cc5336d5-4efd-4b8d-b443-dbb65c553969",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T02:27:34.874Z",
+        "updated_at": "2023-09-03T09:28:50.795Z"
+      },
+      {
+        "id": "65c2e9fd-12eb-4d36-882d-8b7feea2c9cb",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T12:38:53.887Z",
+        "updated_at": "2023-09-03T14:35:59.185Z"
+      },
+      {
+        "id": "ce060057-b2ec-4b0b-bba3-157f069e99f2",
+        "name": "Venmo",
+        "created_at": "2023-09-03T15:23:11.842Z",
+        "updated_at": "2023-09-03T11:28:49.505Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "c5aaf4b6-4eed-4cc3-837c-1ece5f057ad4",
+        "name": "USD",
+        "exchange_rate": 0.8708342772442847,
+        "created_at": "2023-09-03T07:21:08.700Z",
+        "updated_at": "2023-09-03T18:59:19.343Z"
+      },
+      {
+        "id": "02667876-072d-4e2c-b192-7e309cf71c23",
+        "name": "EUR",
+        "exchange_rate": 0.7373428116552532,
+        "created_at": "2023-09-02T23:00:28.715Z",
+        "updated_at": "2023-09-03T05:51:15.268Z"
+      },
+      {
+        "id": "05698a56-7618-4b70-8b52-483a2a6ded4f",
+        "name": "GBP",
+        "exchange_rate": 0.4179609732236713,
+        "created_at": "2023-09-03T06:34:57.798Z",
+        "updated_at": "2023-09-03T11:39:49.653Z"
+      },
+      {
+        "id": "7d756b28-32a7-4ca2-b8ef-66dd9fc49356",
+        "name": "JPY",
+        "exchange_rate": 0.9599040593020618,
+        "created_at": "2023-09-02T21:59:49.668Z",
+        "updated_at": "2023-09-03T12:35:30.848Z"
+      },
+      {
+        "id": "c7b9ac89-743f-4bcc-8b99-4ebabc9cae9d",
+        "name": "CAD",
+        "exchange_rate": 0.9748383134137839,
+        "created_at": "2023-09-03T19:10:35.972Z",
+        "updated_at": "2023-09-03T08:30:12.116Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "9354332b-dca1-413b-b611-eb68b85f2060",
+        "amount": 0.671974906232208,
+        "created_at": "2023-09-03T11:02:08.214Z",
+        "updated_at": "2023-09-03T11:13:21.068Z",
+        "currency_id": "02667876-072d-4e2c-b192-7e309cf71c23",
+        "payment_option_id": "65c2e9fd-12eb-4d36-882d-8b7feea2c9cb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10482ab5-b314-4bdf-bac7-c6e0176b61cc",
+        "amount": 0.1582553053740412,
+        "created_at": "2023-09-03T04:18:53.617Z",
+        "updated_at": "2023-09-02T21:14:15.073Z",
+        "currency_id": "c5aaf4b6-4eed-4cc3-837c-1ece5f057ad4",
+        "payment_option_id": "cc5336d5-4efd-4b8d-b443-dbb65c553969",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6674d26a-d0a3-4b7c-bf9c-12f781b3eecd",
+        "amount": 0.781136269448325,
+        "created_at": "2023-09-03T07:59:28.374Z",
+        "updated_at": "2023-09-03T00:54:32.818Z",
+        "currency_id": "c7b9ac89-743f-4bcc-8b99-4ebabc9cae9d",
+        "payment_option_id": "ce060057-b2ec-4b0b-bba3-157f069e99f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afbeb0df-f87c-45bf-8c11-ba15743372ff",
+        "amount": 0.29858730267733335,
+        "created_at": "2023-09-03T19:18:49.858Z",
+        "updated_at": "2023-09-03T18:19:08.947Z",
+        "currency_id": "7d756b28-32a7-4ca2-b8ef-66dd9fc49356",
+        "payment_option_id": "ce060057-b2ec-4b0b-bba3-157f069e99f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f0bb6e-f95b-4b0e-adb5-466a0db3986b",
+        "amount": 0.9993383977562189,
+        "created_at": "2023-09-03T11:47:53.844Z",
+        "updated_at": "2023-09-03T10:51:05.802Z",
+        "currency_id": "c7b9ac89-743f-4bcc-8b99-4ebabc9cae9d",
+        "payment_option_id": "8504a6cc-a257-40ae-8b1e-472ebfe0a872",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "d2bb66c7-79c3-4539-9c9a-bf58637b932c",
+        "status": "Verified",
+        "created_at": "2023-09-03T09:07:17.718Z",
+        "updated_at": "2023-09-02T20:37:57.089Z",
+        "transaction_id": "e5f0bb6e-f95b-4b0e-adb5-466a0db3986b"
+      },
+      {
+        "id": "445d1f4a-021a-4062-a13a-9a584bdf768e",
+        "status": "Pending",
+        "created_at": "2023-09-03T02:21:23.853Z",
+        "updated_at": "2023-09-03T05:01:01.647Z",
+        "transaction_id": "e5f0bb6e-f95b-4b0e-adb5-466a0db3986b"
+      },
+      {
+        "id": "b1e29064-20a9-4c34-bccc-13a6a3db25fc",
+        "status": "Rejected",
+        "created_at": "2023-09-03T01:11:59.475Z",
+        "updated_at": "2023-09-03T05:48:16.646Z",
+        "transaction_id": "afbeb0df-f87c-45bf-8c11-ba15743372ff"
+      },
+      {
+        "id": "e60a9dfd-aefe-4457-aaac-39190aac2331",
+        "status": "Approved",
+        "created_at": "2023-09-03T10:49:41.464Z",
+        "updated_at": "2023-09-03T01:12:49.629Z",
+        "transaction_id": "6674d26a-d0a3-4b7c-bf9c-12f781b3eecd"
+      },
+      {
+        "id": "c1b39000-3e85-4550-8362-85e114401142",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T09:24:11.783Z",
+        "updated_at": "2023-09-03T02:49:54.268Z",
+        "transaction_id": "e5f0bb6e-f95b-4b0e-adb5-466a0db3986b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5c28d6d-5ccd-4d2e-bcaf-3d43fb6a4337",
+        "email": "Amiya99@hotmail.com",
+        "firstName": "Brando",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/501.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b0b3653-bb75-4615-bc32-4da30f70f52f",
+        "email": "Arvilla.Ferry@hotmail.com",
+        "firstName": "Tevin",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22873644",
+        "tenantId": null
+      },
+      {
+        "reference": "624b8345-6374-4599-bbf5-31b6f3c0d79e",
+        "email": "Domenic96@yahoo.com",
+        "firstName": "Harley",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2547648",
+        "tenantId": null
+      },
+      {
+        "reference": "490a2609-8a39-4ae9-b646-023bafef1c7d",
+        "email": "Cornell_Harber97@yahoo.com",
+        "firstName": "Kimberly",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9330ed2e-c4a1-4f18-b7aa-7ab4db9bda32",
+        "email": "Isabel55@hotmail.com",
+        "firstName": "Adolphus",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75029430",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "7d62e72d-a60e-4275-8a4f-67de2dc450e2",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T03:11:48.124Z",
+        "updated_at": "2023-09-02T21:07:10.464Z"
+      },
+      {
+        "id": "36cf4883-b0fc-4da0-87e7-68ae76dd9e52",
+        "name": "PayPal",
+        "created_at": "2023-09-02T19:42:45.282Z",
+        "updated_at": "2023-09-03T17:13:07.210Z"
+      },
+      {
+        "id": "0d800caf-ab85-4485-bd11-dab37ef59da1",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-03T14:29:38.413Z",
+        "updated_at": "2023-09-03T07:30:01.672Z"
+      },
+      {
+        "id": "3c1816b5-9bfe-4e83-a1e8-3fafce4720c7",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T14:45:29.096Z",
+        "updated_at": "2023-09-02T21:09:46.466Z"
+      },
+      {
+        "id": "6bc7916d-2179-4de8-8d95-1c16ad1e27b5",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T09:04:24.124Z",
+        "updated_at": "2023-09-03T12:37:01.690Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "78085a82-a1ce-4cb9-8fed-c5ca1b0c2f32",
+        "name": "USD",
+        "exchange_rate": 0.14030767139047384,
+        "created_at": "2023-09-03T02:34:40.701Z",
+        "updated_at": "2023-09-02T19:41:47.287Z"
+      },
+      {
+        "id": "b04fda19-c6b6-49e0-a6e7-585861973bd0",
+        "name": "EUR",
+        "exchange_rate": 0.056725627509877086,
+        "created_at": "2023-09-03T18:57:14.252Z",
+        "updated_at": "2023-09-03T01:08:29.318Z"
+      },
+      {
+        "id": "e3a25d99-555d-42e4-8787-1406bd21653c",
+        "name": "GBP",
+        "exchange_rate": 0.8746727944817394,
+        "created_at": "2023-09-03T03:26:35.829Z",
+        "updated_at": "2023-09-03T08:38:13.391Z"
+      },
+      {
+        "id": "ae055b4b-5df3-4e1d-84a3-15ea8880f21d",
+        "name": "JPY",
+        "exchange_rate": 0.6762055100407451,
+        "created_at": "2023-09-03T04:42:32.006Z",
+        "updated_at": "2023-09-03T15:53:24.493Z"
+      },
+      {
+        "id": "01d71ee5-76d8-43f8-9154-1f7c1d1ca181",
+        "name": "CAD",
+        "exchange_rate": 0.43660355638712645,
+        "created_at": "2023-09-03T01:14:31.406Z",
+        "updated_at": "2023-09-03T07:31:59.430Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "65fe8f4d-40dc-44e0-9df5-9734c4b9d4fb",
+        "amount": 0.6330067338421941,
+        "created_at": "2023-09-03T14:37:24.232Z",
+        "updated_at": "2023-09-03T11:36:22.191Z",
+        "currency_id": "01d71ee5-76d8-43f8-9154-1f7c1d1ca181",
+        "payment_option_id": "36cf4883-b0fc-4da0-87e7-68ae76dd9e52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca55a49-6d9e-44de-b7e0-88aa2bf83656",
+        "amount": 0.1948265030514449,
+        "created_at": "2023-09-03T14:06:31.823Z",
+        "updated_at": "2023-09-03T00:30:47.976Z",
+        "currency_id": "b04fda19-c6b6-49e0-a6e7-585861973bd0",
+        "payment_option_id": "0d800caf-ab85-4485-bd11-dab37ef59da1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "751ce72e-5e99-4c0c-b489-653ed04a453b",
+        "amount": 0.9438416296616197,
+        "created_at": "2023-09-03T12:46:20.967Z",
+        "updated_at": "2023-09-03T17:03:14.532Z",
+        "currency_id": "ae055b4b-5df3-4e1d-84a3-15ea8880f21d",
+        "payment_option_id": "7d62e72d-a60e-4275-8a4f-67de2dc450e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91a2fd62-16eb-4256-9dfa-0eb6ec0ab76d",
+        "amount": 0.992489869473502,
+        "created_at": "2023-09-02T20:37:36.996Z",
+        "updated_at": "2023-09-03T08:50:49.162Z",
+        "currency_id": "ae055b4b-5df3-4e1d-84a3-15ea8880f21d",
+        "payment_option_id": "36cf4883-b0fc-4da0-87e7-68ae76dd9e52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b396bbe-b0b9-429e-9c51-7baa52d19570",
+        "amount": 0.4931796754244715,
+        "created_at": "2023-09-03T09:25:28.149Z",
+        "updated_at": "2023-09-03T03:06:31.538Z",
+        "currency_id": "ae055b4b-5df3-4e1d-84a3-15ea8880f21d",
+        "payment_option_id": "0d800caf-ab85-4485-bd11-dab37ef59da1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "c90b2674-4571-4a30-99c7-9ceac115fedd",
+        "status": "Verified",
+        "created_at": "2023-09-03T14:32:19.346Z",
+        "updated_at": "2023-09-02T20:25:13.455Z",
+        "transaction_id": "91a2fd62-16eb-4256-9dfa-0eb6ec0ab76d"
+      },
+      {
+        "id": "d80eb004-0d55-48d3-a249-d1ab5b8eed83",
+        "status": "Pending",
+        "created_at": "2023-09-03T08:16:33.353Z",
+        "updated_at": "2023-09-03T10:02:50.058Z",
+        "transaction_id": "1ca55a49-6d9e-44de-b7e0-88aa2bf83656"
+      },
+      {
+        "id": "a9e44988-23a7-404c-9e6e-88685b88b60c",
+        "status": "Rejected",
+        "created_at": "2023-09-03T13:06:07.678Z",
+        "updated_at": "2023-09-03T00:15:32.846Z",
+        "transaction_id": "65fe8f4d-40dc-44e0-9df5-9734c4b9d4fb"
+      },
+      {
+        "id": "423a304d-db92-42a5-bd9b-8c9205e1513c",
+        "status": "Approved",
+        "created_at": "2023-09-03T08:27:20.426Z",
+        "updated_at": "2023-09-03T01:55:54.562Z",
+        "transaction_id": "751ce72e-5e99-4c0c-b489-653ed04a453b"
+      },
+      {
+        "id": "405fa75f-7b74-490d-8aa7-3a0d714b8a0a",
+        "status": "Under Review",
+        "created_at": "2023-09-03T04:21:42.294Z",
+        "updated_at": "2023-09-03T11:47:17.356Z",
+        "transaction_id": "751ce72e-5e99-4c0c-b489-653ed04a453b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d71853c-e080-4603-9533-481df625a941",
+        "email": "Pattie56@hotmail.com",
+        "firstName": "Steve",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9c5ec82-4705-4415-89f5-b117bb39c39d",
+        "email": "Giovanny_Farrell97@hotmail.com",
+        "firstName": "Alvena",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5fcf997-910c-4917-99b6-4539abd12eec",
+        "email": "Irving_Weber6@gmail.com",
+        "firstName": "Colten",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22228315",
+        "tenantId": null
+      },
+      {
+        "reference": "d7f2d7d2-06ec-471e-a0ae-881928458167",
+        "email": "Fabiola_Weissnat-Paucek89@gmail.com",
+        "firstName": "Wilfredo",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70316342",
+        "tenantId": null
+      },
+      {
+        "reference": "e73bc7ff-33b0-4dd7-980c-62539d844c4d",
+        "email": "Erik.Kozey@gmail.com",
+        "firstName": "Waylon",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51227182",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "b280bfbe-eff0-464a-8bbf-67c111ee7167",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T06:33:50.066Z",
+        "updated_at": "2023-09-03T14:09:14.869Z"
+      },
+      {
+        "id": "90c4da4b-8358-4527-8083-6bbec9ceca8f",
+        "name": "PayPal",
+        "created_at": "2023-09-03T12:30:34.148Z",
+        "updated_at": "2023-09-03T11:35:08.641Z"
+      },
+      {
+        "id": "a53f1e2d-21d4-4ead-9fb4-35d63f6aa208",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-02T21:40:22.395Z",
+        "updated_at": "2023-09-03T16:57:30.880Z"
+      },
+      {
+        "id": "03f599c9-294d-44fc-908c-e8fb32173553",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T15:58:47.830Z",
+        "updated_at": "2023-09-03T09:46:27.033Z"
+      },
+      {
+        "id": "977b678f-6542-43ce-aa82-59652942d3b2",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T00:01:29.611Z",
+        "updated_at": "2023-09-03T07:41:49.161Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "5cfe3272-0896-48a2-bcb5-f5e8d2d78a39",
+        "name": "USD",
+        "exchange_rate": 0.2131005940027535,
+        "created_at": "2023-09-03T01:09:22.723Z",
+        "updated_at": "2023-09-02T22:41:59.081Z"
+      },
+      {
+        "id": "ec1f616d-82ab-49d8-b62a-824dd9e82d15",
+        "name": "EUR",
+        "exchange_rate": 0.741218791808933,
+        "created_at": "2023-09-03T07:33:30.977Z",
+        "updated_at": "2023-09-02T20:47:42.846Z"
+      },
+      {
+        "id": "9fbba457-dd1c-4d92-a5cd-b569bd1a4eb9",
+        "name": "GBP",
+        "exchange_rate": 0.058784674387425184,
+        "created_at": "2023-09-03T08:07:02.817Z",
+        "updated_at": "2023-09-02T20:02:24.314Z"
+      },
+      {
+        "id": "5764d146-2103-43b3-ba1d-cf3b1d7f83e1",
+        "name": "JPY",
+        "exchange_rate": 0.2748993581626564,
+        "created_at": "2023-09-03T19:31:07.074Z",
+        "updated_at": "2023-09-03T08:34:26.063Z"
+      },
+      {
+        "id": "8f509a48-bbdb-4cce-b946-8327c107127a",
+        "name": "AUD",
+        "exchange_rate": 0.4148325049318373,
+        "created_at": "2023-09-03T15:17:50.196Z",
+        "updated_at": "2023-09-03T15:48:02.599Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "efe25f86-0cfb-4706-85b6-6fe93eafb434",
+        "amount": 0.5673086720053107,
+        "created_at": "2023-09-03T00:18:10.784Z",
+        "updated_at": "2023-09-03T13:49:10.530Z",
+        "currency_id": "ec1f616d-82ab-49d8-b62a-824dd9e82d15",
+        "payment_option_id": "a53f1e2d-21d4-4ead-9fb4-35d63f6aa208",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7584043f-344c-4439-9780-f7e93df881a5",
+        "amount": 0.008220348972827196,
+        "created_at": "2023-09-03T00:55:41.990Z",
+        "updated_at": "2023-09-03T06:52:25.070Z",
+        "currency_id": "5cfe3272-0896-48a2-bcb5-f5e8d2d78a39",
+        "payment_option_id": "a53f1e2d-21d4-4ead-9fb4-35d63f6aa208",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebb4e6c-c76e-4c00-a310-3c0762475243",
+        "amount": 0.220320045016706,
+        "created_at": "2023-09-03T07:57:55.853Z",
+        "updated_at": "2023-09-03T13:38:18.879Z",
+        "currency_id": "5764d146-2103-43b3-ba1d-cf3b1d7f83e1",
+        "payment_option_id": "03f599c9-294d-44fc-908c-e8fb32173553",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3cb2a71-078d-4596-9f39-46a990eff3b6",
+        "amount": 0.22493779426440597,
+        "created_at": "2023-09-03T12:36:20.841Z",
+        "updated_at": "2023-09-02T19:52:08.397Z",
+        "currency_id": "5cfe3272-0896-48a2-bcb5-f5e8d2d78a39",
+        "payment_option_id": "b280bfbe-eff0-464a-8bbf-67c111ee7167",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8663b129-2304-4921-90ec-15262ba6a3f9",
+        "amount": 0.24963297368958592,
+        "created_at": "2023-09-03T07:27:41.446Z",
+        "updated_at": "2023-09-03T18:58:31.819Z",
+        "currency_id": "8f509a48-bbdb-4cce-b946-8327c107127a",
+        "payment_option_id": "b280bfbe-eff0-464a-8bbf-67c111ee7167",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "66da7174-e635-43a3-bcff-0736d076897b",
+        "status": "Verified",
+        "created_at": "2023-09-03T08:41:32.143Z",
+        "updated_at": "2023-09-03T00:14:37.013Z",
+        "transaction_id": "7584043f-344c-4439-9780-f7e93df881a5"
+      },
+      {
+        "id": "c4ae562c-7d72-48bb-ab59-ff0634f12d2b",
+        "status": "Pending",
+        "created_at": "2023-09-03T14:37:24.024Z",
+        "updated_at": "2023-09-03T08:30:02.907Z",
+        "transaction_id": "7584043f-344c-4439-9780-f7e93df881a5"
+      },
+      {
+        "id": "66d4ab30-0e17-41e8-8381-853cbc8394d7",
+        "status": "Rejected",
+        "created_at": "2023-09-02T23:52:10.345Z",
+        "updated_at": "2023-09-03T04:13:08.616Z",
+        "transaction_id": "7584043f-344c-4439-9780-f7e93df881a5"
+      },
+      {
+        "id": "fbcd272e-f927-4f9a-b98a-69370a27a1c9",
+        "status": "Approved",
+        "created_at": "2023-09-03T18:59:09.139Z",
+        "updated_at": "2023-09-02T20:27:07.901Z",
+        "transaction_id": "8663b129-2304-4921-90ec-15262ba6a3f9"
+      },
+      {
+        "id": "f7de4a00-bff2-42f7-a93d-dc63cd697ccf",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T00:52:44.170Z",
+        "updated_at": "2023-09-03T07:40:26.418Z",
+        "transaction_id": "d3cb2a71-078d-4596-9f39-46a990eff3b6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c1e903f4-234b-4c4d-9bf8-d47f335146ba",
+        "email": "Ibrahim_Treutel@gmail.com",
+        "firstName": "Justine",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29632266",
+        "tenantId": null
+      },
+      {
+        "reference": "6eda3df1-17c5-427e-bbf1-4ae6713d580a",
+        "email": "Anjali_Batz@hotmail.com",
+        "firstName": "Adeline",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/65.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10b9b55c-a791-4a63-949b-65f2f59917aa",
+        "email": "Deanna_Aufderhar58@hotmail.com",
+        "firstName": "Johann",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20255253",
+        "tenantId": null
+      },
+      {
+        "reference": "1474001c-3e91-4048-acf1-a8bce55291cd",
+        "email": "Nicolette34@hotmail.com",
+        "firstName": "Shanny",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1fe2783c-274e-4f20-8155-5ad99a59ae2b",
+        "email": "Perry.Turcotte94@hotmail.com",
+        "firstName": "Leila",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/142.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "3fffd11b-9af6-49a3-aa3b-cdf75513fd83",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T04:10:07.232Z",
+        "updated_at": "2023-09-03T11:20:31.955Z"
+      },
+      {
+        "id": "5e75a2d5-e771-45ff-8adc-55f407c34ac2",
+        "name": "PayPal",
+        "created_at": "2023-09-03T01:32:38.435Z",
+        "updated_at": "2023-09-03T11:37:08.164Z"
+      },
+      {
+        "id": "775b660c-f0c2-48b3-a48f-aae2183b7ba0",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T09:47:24.380Z",
+        "updated_at": "2023-09-03T18:05:37.762Z"
+      },
+      {
+        "id": "8e5cd60a-6c21-4ed3-a278-c530450556c9",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T08:36:28.823Z",
+        "updated_at": "2023-09-03T09:50:06.974Z"
+      },
+      {
+        "id": "76fbce74-bc0d-4b05-837a-92867ccec9c2",
+        "name": "Venmo",
+        "created_at": "2023-09-03T12:03:19.398Z",
+        "updated_at": "2023-09-03T03:33:05.215Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "d9d9d69c-be06-4379-b6e1-0e72bc53c6dd",
+        "name": "USD",
+        "exchange_rate": 0.5027597649022937,
+        "created_at": "2023-09-03T12:45:33.408Z",
+        "updated_at": "2023-09-03T00:40:02.165Z"
+      },
+      {
+        "id": "dc641b25-e530-4aec-a770-f4707323f02d",
+        "name": "EUR",
+        "exchange_rate": 0.0585237315390259,
+        "created_at": "2023-09-03T01:20:38.076Z",
+        "updated_at": "2023-09-03T18:58:37.309Z"
+      },
+      {
+        "id": "07e0d430-4b65-404a-80c5-a597b330affb",
+        "name": "GBP",
+        "exchange_rate": 0.9792838310822845,
+        "created_at": "2023-09-03T17:27:40.770Z",
+        "updated_at": "2023-09-03T05:42:13.163Z"
+      },
+      {
+        "id": "ce4d3326-ea68-47e1-83c0-83596ebd88e5",
+        "name": "JPY",
+        "exchange_rate": 0.6510372350458056,
+        "created_at": "2023-09-03T19:36:56.955Z",
+        "updated_at": "2023-09-02T23:07:25.569Z"
+      },
+      {
+        "id": "76849f85-621e-4981-9b2f-e95ab04719ff",
+        "name": "CAD",
+        "exchange_rate": 0.6869068760424852,
+        "created_at": "2023-09-03T09:23:33.311Z",
+        "updated_at": "2023-09-03T16:11:21.439Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "3bfe5c22-5773-4c19-acd3-265fbda8897f",
+        "amount": 0.5094571993686259,
+        "created_at": "2023-09-03T04:13:34.809Z",
+        "updated_at": "2023-09-02T21:15:50.178Z",
+        "currency_id": "ce4d3326-ea68-47e1-83c0-83596ebd88e5",
+        "payment_option_id": "3fffd11b-9af6-49a3-aa3b-cdf75513fd83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7284f573-035f-4f53-bf11-a8981d7dbe0b",
+        "amount": 0.43878359673544765,
+        "created_at": "2023-09-03T14:41:35.990Z",
+        "updated_at": "2023-09-03T13:12:10.217Z",
+        "currency_id": "76849f85-621e-4981-9b2f-e95ab04719ff",
+        "payment_option_id": "5e75a2d5-e771-45ff-8adc-55f407c34ac2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9d0d119-8f2b-4533-b3f7-eab6cddcbfea",
+        "amount": 0.845723822247237,
+        "created_at": "2023-09-02T20:29:59.516Z",
+        "updated_at": "2023-09-03T07:31:31.570Z",
+        "currency_id": "ce4d3326-ea68-47e1-83c0-83596ebd88e5",
+        "payment_option_id": "3fffd11b-9af6-49a3-aa3b-cdf75513fd83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02741b1b-1ddb-4908-9ce9-9ef4be20e170",
+        "amount": 0.7083310463931412,
+        "created_at": "2023-09-03T14:04:09.248Z",
+        "updated_at": "2023-09-03T15:47:02.307Z",
+        "currency_id": "ce4d3326-ea68-47e1-83c0-83596ebd88e5",
+        "payment_option_id": "76fbce74-bc0d-4b05-837a-92867ccec9c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b7a4604-9f46-4d25-9250-6ed23c8e3d17",
+        "amount": 0.7745937346480787,
+        "created_at": "2023-09-02T22:30:59.463Z",
+        "updated_at": "2023-09-03T16:01:55.797Z",
+        "currency_id": "76849f85-621e-4981-9b2f-e95ab04719ff",
+        "payment_option_id": "3fffd11b-9af6-49a3-aa3b-cdf75513fd83",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "467a3531-a338-4dd7-8360-0a9fe051237b",
+        "status": "Pending",
+        "created_at": "2023-09-03T02:18:22.754Z",
+        "updated_at": "2023-09-02T20:37:32.126Z",
+        "transaction_id": "f9d0d119-8f2b-4533-b3f7-eab6cddcbfea"
+      },
+      {
+        "id": "d479a513-fcb4-4a49-a2b4-71c0d4dea6eb",
+        "status": "Verified",
+        "created_at": "2023-09-03T05:38:03.702Z",
+        "updated_at": "2023-09-03T04:54:34.537Z",
+        "transaction_id": "02741b1b-1ddb-4908-9ce9-9ef4be20e170"
+      },
+      {
+        "id": "2134a53e-692a-46f1-a6bc-fe8b69ddcfd3",
+        "status": "Rejected",
+        "created_at": "2023-09-03T10:09:57.931Z",
+        "updated_at": "2023-09-03T01:01:48.606Z",
+        "transaction_id": "02741b1b-1ddb-4908-9ce9-9ef4be20e170"
+      },
+      {
+        "id": "3dfb312e-542a-46b6-9280-cd9f4b409f92",
+        "status": "Under Review",
+        "created_at": "2023-09-02T20:33:58.165Z",
+        "updated_at": "2023-09-03T02:12:19.635Z",
+        "transaction_id": "02741b1b-1ddb-4908-9ce9-9ef4be20e170"
+      },
+      {
+        "id": "c2e72429-5fa7-4e6d-a279-7810f14a55fd",
+        "status": "Approved",
+        "created_at": "2023-09-03T07:49:17.071Z",
+        "updated_at": "2023-09-03T12:57:16.851Z",
+        "transaction_id": "3bfe5c22-5773-4c19-acd3-265fbda8897f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e774fde6-4949-41aa-8efa-2c20d2e10720",
+        "email": "Scarlett.Herman@gmail.com",
+        "firstName": "Kennedy",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/960.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2405ffa9-30a6-4f9e-a1f8-db0d76df26d3",
+        "email": "Jamar13@hotmail.com",
+        "firstName": "Alfredo",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a4608bf-2732-40aa-a548-a7fa50f4d166",
+        "email": "Stefanie.Hegmann53@yahoo.com",
+        "firstName": "Blaise",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88951594",
+        "tenantId": null
+      },
+      {
+        "reference": "14e71286-ce8b-413e-bdbd-84a91000af6d",
+        "email": "Raphael_Donnelly@gmail.com",
+        "firstName": "Hazle",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "479c8f37-9be8-4d1b-9ee6-5139f1161994",
+        "email": "Yadira69@gmail.com",
+        "firstName": "Frederick",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30388291",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment_option": [
+      {
+        "id": "d382146c-957e-4111-bfcc-4a7365a1e733",
+        "name": "Credit Card",
+        "created_at": "2023-09-03T06:22:19.297Z",
+        "updated_at": "2023-09-03T18:32:32.670Z"
+      },
+      {
+        "id": "52d3e222-a5da-40c1-98d9-828d1af1e7ac",
+        "name": "PayPal",
+        "created_at": "2023-09-03T17:32:11.726Z",
+        "updated_at": "2023-09-03T14:34:45.370Z"
+      },
+      {
+        "id": "eba7c8a3-8c1f-4d02-9eda-3a2bf7f3bb7f",
+        "name": "Bank Transfer",
+        "created_at": "2023-09-03T09:13:54.944Z",
+        "updated_at": "2023-09-03T18:53:39.880Z"
+      },
+      {
+        "id": "a1f31370-0608-4434-9735-c4b9f7efa6fb",
+        "name": "Apple Pay",
+        "created_at": "2023-09-03T04:03:18.327Z",
+        "updated_at": "2023-09-02T19:58:02.516Z"
+      },
+      {
+        "id": "56d4c4e7-cbb4-4c5c-846d-ff84102149ce",
+        "name": "Google Pay",
+        "created_at": "2023-09-03T04:13:20.566Z",
+        "updated_at": "2023-09-03T16:50:40.469Z"
+      }
+    ],
+    "currency": [
+      {
+        "id": "b37ed5e3-74c6-42a3-8f0e-7a431e7be11d",
+        "name": "USD",
+        "exchange_rate": 0.823955412954092,
+        "created_at": "2023-09-02T22:10:47.963Z",
+        "updated_at": "2023-09-03T03:31:37.551Z"
+      },
+      {
+        "id": "b9de8c09-80b6-41ba-b5d4-607779f4d280",
+        "name": "EUR",
+        "exchange_rate": 0.05598549311980605,
+        "created_at": "2023-09-02T23:03:32.763Z",
+        "updated_at": "2023-09-03T01:34:03.136Z"
+      },
+      {
+        "id": "4b856cfc-29f3-4334-a289-19655a8701ac",
+        "name": "GBP",
+        "exchange_rate": 0.5586751506198198,
+        "created_at": "2023-09-03T07:28:00.187Z",
+        "updated_at": "2023-09-02T23:40:35.970Z"
+      },
+      {
+        "id": "efce4c78-ce8b-43c8-901c-d1b6174f0751",
+        "name": "JPY",
+        "exchange_rate": 0.4937878716737032,
+        "created_at": "2023-09-03T07:06:43.798Z",
+        "updated_at": "2023-09-03T03:00:28.069Z"
+      },
+      {
+        "id": "df69f49c-b8ae-41d4-9c40-51f804306b6e",
+        "name": "CAD",
+        "exchange_rate": 0.7025111287366599,
+        "created_at": "2023-09-03T12:06:09.079Z",
+        "updated_at": "2023-09-02T23:29:21.366Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "7cda8f7d-1574-4b6f-a100-5de67bb8f863",
+        "amount": 0.4494592605624348,
+        "created_at": "2023-09-03T05:34:26.719Z",
+        "updated_at": "2023-09-03T09:59:09.462Z",
+        "currency_id": "df69f49c-b8ae-41d4-9c40-51f804306b6e",
+        "payment_option_id": "56d4c4e7-cbb4-4c5c-846d-ff84102149ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e9581ac-b63c-4a37-80a2-123fcce19380",
+        "amount": 0.6356044244021177,
+        "created_at": "2023-09-03T05:22:50.460Z",
+        "updated_at": "2023-09-03T08:26:17.088Z",
+        "currency_id": "b9de8c09-80b6-41ba-b5d4-607779f4d280",
+        "payment_option_id": "56d4c4e7-cbb4-4c5c-846d-ff84102149ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73b324cc-91e9-48fb-a0cc-c9db751d3814",
+        "amount": 0.6021091074217111,
+        "created_at": "2023-09-03T07:52:10.440Z",
+        "updated_at": "2023-09-02T23:16:30.250Z",
+        "currency_id": "b37ed5e3-74c6-42a3-8f0e-7a431e7be11d",
+        "payment_option_id": "56d4c4e7-cbb4-4c5c-846d-ff84102149ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0785809a-fd71-41d8-ad86-fb9826c87062",
+        "amount": 0.5024733745958656,
+        "created_at": "2023-09-03T18:43:29.463Z",
+        "updated_at": "2023-09-03T05:56:18.055Z",
+        "currency_id": "df69f49c-b8ae-41d4-9c40-51f804306b6e",
+        "payment_option_id": "56d4c4e7-cbb4-4c5c-846d-ff84102149ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67d798b1-62c7-4dd0-8ecd-c3220072ef9a",
+        "amount": 0.7626712541095912,
+        "created_at": "2023-09-03T16:45:30.768Z",
+        "updated_at": "2023-09-03T18:26:30.361Z",
+        "currency_id": "efce4c78-ce8b-43c8-901c-d1b6174f0751",
+        "payment_option_id": "52d3e222-a5da-40c1-98d9-828d1af1e7ac",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "verification": [
+      {
+        "id": "18a95f7d-bf7f-4f20-9124-da377c4ef726",
+        "status": "Pending",
+        "created_at": "2023-09-03T14:26:23.958Z",
+        "updated_at": "2023-09-03T15:47:22.143Z",
+        "transaction_id": "67d798b1-62c7-4dd0-8ecd-c3220072ef9a"
+      },
+      {
+        "id": "90d3e5b5-0bf9-4708-bc40-3693f93d2689",
+        "status": "Approved",
+        "created_at": "2023-09-03T18:45:09.699Z",
+        "updated_at": "2023-09-03T04:05:18.785Z",
+        "transaction_id": "6e9581ac-b63c-4a37-80a2-123fcce19380"
+      },
+      {
+        "id": "ad710112-e769-4544-b7aa-bf0fb31efee8",
+        "status": "Rejected",
+        "created_at": "2023-09-03T14:57:36.607Z",
+        "updated_at": "2023-09-03T03:20:02.059Z",
+        "transaction_id": "67d798b1-62c7-4dd0-8ecd-c3220072ef9a"
+      },
+      {
+        "id": "dca73048-6065-4f22-8efb-0a5c828957e9",
+        "status": "In Progress",
+        "created_at": "2023-09-03T00:18:25.498Z",
+        "updated_at": "2023-09-02T21:33:35.561Z",
+        "transaction_id": "0785809a-fd71-41d8-ad86-fb9826c87062"
+      },
+      {
+        "id": "a67ea70a-08cc-4f09-921e-9271e957361c",
+        "status": "Completed",
+        "created_at": "2023-09-02T20:26:05.453Z",
+        "updated_at": "2023-09-03T12:44:28.128Z",
+        "transaction_id": "6e9581ac-b63c-4a37-80a2-123fcce19380"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35b8b5a7-5ca8-424d-8d62-dd0d44c898e5",
+        "email": "Sabryna_Prosacco@hotmail.com",
+        "firstName": "Berenice",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/274.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ddb3942-8d97-42d2-83f0-eb0efaf6a3ac",
+        "email": "Pink_Kuvalis37@gmail.com",
+        "firstName": "Marian",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94971144",
+        "tenantId": null
+      },
+      {
+        "reference": "c87b4bac-b5b7-4f41-b07b-c12d2f66e6b4",
+        "email": "Zakary_Breitenberg59@gmail.com",
+        "firstName": "Eloy",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/766.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9fe72897-9ffa-4080-8aab-d50018aadf1f",
+        "email": "Lindsey_Johnson46@hotmail.com",
+        "firstName": "Adolphus",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36937918",
+        "tenantId": null
+      },
+      {
+        "reference": "1e4b429e-f4a3-497a-b59b-b79378b5f867",
+        "email": "Floyd_Zboncak28@gmail.com",
+        "firstName": "Deja",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/994.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
